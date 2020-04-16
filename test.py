@@ -1,3 +1,3 @@
-message = "Hello World"
-print(message)
+message = "hello world"
+print(message.title())
 

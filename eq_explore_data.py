@@ -5,7 +5,7 @@ from plotly import offline
 
 #Explore the structure of the data.
 #The address for filename references the folder data in the same directory as this program
-filename ='data/eq_data_30_day_m1.json'
+filename ='eq_data_1_day_m1.json'
 with open(filename) as f:
 	all_eq_data = json.load(f)
 
